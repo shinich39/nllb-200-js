@@ -7,6 +7,7 @@ Currently supported on windows only.
 ## Requirements
 
 [nodejs](https://nodejs.org/en/download/package-manager/current)
+
 [python3](https://www.python.org/downloads/)
 
 ## Usage
