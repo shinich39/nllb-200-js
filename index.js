@@ -33,6 +33,7 @@ function isValidModel(str) {
 /**
  *
  * @param {boolean} force
+ * @returns {Promise<void>}
  */
 async function init(force) {
   await py.init(force);

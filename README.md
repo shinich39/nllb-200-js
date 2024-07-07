@@ -10,6 +10,10 @@ Currently supported on windows only.
 
 [python3](https://www.python.org/downloads/)
 
+## Methods
+
+[Methods](DOCUMENT.md)
+
 ## Usage
 
 ```js

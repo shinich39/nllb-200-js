@@ -9,7 +9,7 @@
 ## Functions
 
 <dl>
-<dt><a href="#init">init(force)</a></dt>
+<dt><a href="#init">init(force)</a> ⇒ <code>Promise.&lt;void&gt;</code></dt>
 <dd></dd>
 <dt><a href="#translate">translate(text, from, to, model)</a> ⇒ <code>Promise.&lt;string&gt;</code></dt>
 <dd></dd>
@@ -23,7 +23,7 @@ https://huggingface.co/facebook
 **Kind**: global constant  
 <a name="init"></a>
 
-## init(force)
+## init(force) ⇒ <code>Promise.&lt;void&gt;</code>
 **Kind**: global function  
 
 | Param | Type |
