@@ -10,7 +10,7 @@ Currently supported on windows only.
 
 [python3](https://www.python.org/downloads/)
 
-## Methods
+## Documents
 
 [Methods](DOCUMENT.md)
 
