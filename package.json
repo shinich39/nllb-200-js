@@ -1,0 +1,23 @@
+{
+  "name": "nllb-200-js",
+  "version": "1.0.1",
+  "description": "nllb-200 wrapper with javascript.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js",
+    "prettier": "prettier . --write --config .prettierrc.js",
+    "doc": "jsdoc2md index.js > DOCUMENT.md",
+    "build": "node esbuild.js"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "shinich39 <shinich39@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.23.0",
+    "jsdoc-to-markdown": "^8.0.1",
+    "prettier": "^3.3.2"
+  }
+}

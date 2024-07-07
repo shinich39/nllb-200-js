@@ -1,0 +1,707 @@
+[
+  {
+    "country": "Afrikaans",
+    "iso": "af",
+    "flores": "afr_Latn"
+  },
+  {
+    "country": "Akan",
+    "iso": "ak",
+    "flores": "aka_Latn"
+  },
+  {
+    "country": "Amharic",
+    "iso": "am",
+    "flores": "amh_Ethi"
+  },
+  {
+    "country": "Arabic",
+    "iso": "ar",
+    "flores": "arb_Arab"
+  },
+  {
+    "country": "Assamese",
+    "iso": "as",
+    "flores": "asm_Beng"
+  },
+  {
+    "country": "Awadhi",
+    "iso": "awa",
+    "flores": "awa_Deva"
+  },
+  {
+    "country": "Aymara",
+    "iso": "ay",
+    "flores": "ayr_Latn"
+  },
+  {
+    "country": "Azerbaijani",
+    "iso": "az",
+    "flores": "azb_Arab"
+  },
+  {
+    "country": "Bashkir",
+    "iso": "ba",
+    "flores": "bak_Cyrl"
+  },
+  {
+    "country": "Bambara",
+    "iso": "bm",
+    "flores": "bam_Latn"
+  },
+  {
+    "country": "Balinese",
+    "iso": "ban",
+    "flores": "ban_Latn"
+  },
+  {
+    "country": "Belarusian",
+    "iso": "be",
+    "flores": "bel_Cyrl"
+  },
+  {
+    "country": "Bemba",
+    "iso": "bem",
+    "flores": "bem_Latn"
+  },
+  {
+    "country": "Bengali",
+    "iso": "bn",
+    "flores": "ben_Beng"
+  },
+  {
+    "country": "Bhojpuri",
+    "iso": "bho",
+    "flores": "bho_Deva"
+  },
+  {
+    "country": "Tibetan",
+    "iso": "bo",
+    "flores": "bod_Tibt"
+  },
+  {
+    "country": "Bosnian",
+    "iso": "bs",
+    "flores": "bos_Latn"
+  },
+  {
+    "country": "Buginese",
+    "iso": "bug",
+    "flores": "bug_Latn"
+  },
+  {
+    "country": "Bulgarian",
+    "iso": "bg",
+    "flores": "bul_Cyrl"
+  },
+  {
+    "country": "Cebuano",
+    "iso": "ceb",
+    "flores": "ceb_Latn"
+  },
+  {
+    "country": "Czech",
+    "iso": "cs",
+    "flores": "ces_Latn"
+  },
+  {
+    "country": "Kurdish",
+    "iso": "ku",
+    "flores": "ckb_Arab"
+  },
+  {
+    "country": "Tatar",
+    "iso": "tt",
+    "flores": "crh_Latn"
+  },
+  {
+    "country": "Welsh",
+    "iso": "cy",
+    "flores": "cym_Latn"
+  },
+  {
+    "country": "Danish",
+    "iso": "da",
+    "flores": "dan_Latn"
+  },
+  {
+    "country": "German",
+    "iso": "de",
+    "flores": "deu_Latn"
+  },
+  {
+    "country": "Dinka",
+    "iso": "din",
+    "flores": "dik_Latn"
+  },
+  {
+    "country": "Dyula",
+    "iso": "dyu",
+    "flores": "dyu_Latn"
+  },
+  {
+    "country": "Dzongkha",
+    "iso": "dz",
+    "flores": "dzo_Tibt"
+  },
+  {
+    "country": "English",
+    "iso": "en",
+    "flores": "eng_Latn"
+  },
+  {
+    "country": "Esperanto",
+    "iso": "eo",
+    "flores": "epo_Latn"
+  },
+  {
+    "country": "Estonian",
+    "iso": "et",
+    "flores": "est_Latn"
+  },
+  {
+    "country": "Basque",
+    "iso": "eu",
+    "flores": "eus_Latn"
+  },
+  {
+    "country": "Ewe",
+    "iso": "ee",
+    "flores": "ewe_Latn"
+  },
+  {
+    "country": "Faroese",
+    "iso": "fo",
+    "flores": "fao_Latn"
+  },
+  {
+    "country": "Fijian",
+    "iso": "fj",
+    "flores": "fij_Latn"
+  },
+  {
+    "country": "Finnish",
+    "iso": "fi",
+    "flores": "fin_Latn"
+  },
+  {
+    "country": "Fon",
+    "iso": "fon",
+    "flores": "fon_Latn"
+  },
+  {
+    "country": "French",
+    "iso": "fr",
+    "flores": "fra_Latn"
+  },
+  {
+    "country": "Friulian",
+    "iso": "fur",
+    "flores": "fur_Latn"
+  },
+  {
+    "country": "Irish",
+    "iso": "ga",
+    "flores": "gle_Latn"
+  },
+  {
+    "country": "Galician",
+    "iso": "gl",
+    "flores": "glg_Latn"
+  },
+  {
+    "country": "Guarani",
+    "iso": "gn",
+    "flores": "grn_Latn"
+  },
+  {
+    "country": "Gujarati",
+    "iso": "gu",
+    "flores": "guj_Gujr"
+  },
+  {
+    "country": "Hausa",
+    "iso": "ha",
+    "flores": "hau_Latn"
+  },
+  {
+    "country": "Hebrew",
+    "iso": "he",
+    "flores": "heb_Hebr"
+  },
+  {
+    "country": "Hindi",
+    "iso": "hi",
+    "flores": "hin_Deva"
+  },
+  {
+    "country": "Croatian",
+    "iso": "hr",
+    "flores": "hrv_Latn"
+  },
+  {
+    "country": "Hungarian",
+    "iso": "hu",
+    "flores": "hun_Latn"
+  },
+  {
+    "country": "Armenian",
+    "iso": "hy",
+    "flores": "hye_Armn"
+  },
+  {
+    "country": "Igbo",
+    "iso": "ig",
+    "flores": "ibo_Latn"
+  },
+  {
+    "country": "Indonesian",
+    "iso": "id",
+    "flores": "ind_Latn"
+  },
+  {
+    "country": "Icelandic",
+    "iso": "is",
+    "flores": "isl_Latn"
+  },
+  {
+    "country": "Italian",
+    "iso": "it",
+    "flores": "ita_Latn"
+  },
+  {
+    "country": "Javanese",
+    "iso": "jv",
+    "flores": "jav_Latn"
+  },
+  {
+    "country": "Japanese",
+    "iso": "ja",
+    "flores": "jpn_Jpan"
+  },
+  {
+    "country": "Kabyle",
+    "iso": "kab",
+    "flores": "kab_Latn"
+  },
+  {
+    "country": "Kamba",
+    "iso": "kam",
+    "flores": "kam_Latn"
+  },
+  {
+    "country": "Kannada",
+    "iso": "kn",
+    "flores": "kan_Knda"
+  },
+  {
+    "country": "Kashmiri",
+    "iso": "ks",
+    "flores": "kas_Arab"
+  },
+  {
+    "country": "Georgian",
+    "iso": "ka",
+    "flores": "kat_Geor"
+  },
+  {
+    "country": "Kanuri",
+    "iso": "kr",
+    "flores": "knc_Arab"
+  },
+  {
+    "country": "Kazakh",
+    "iso": "kk",
+    "flores": "kaz_Cyrl"
+  },
+  {
+    "country": "Kinyarwanda",
+    "iso": "rw",
+    "flores": "kin_Latn"
+  },
+  {
+    "country": "Kimbundu",
+    "iso": "kmb",
+    "flores": "kmb_Latn"
+  },
+  {
+    "country": "Kurdish",
+    "iso": "ku",
+    "flores": "kmr_Latn"
+  },
+  {
+    "country": "Korean",
+    "iso": "ko",
+    "flores": "kor_Hang"
+  },
+  {
+    "country": "Lao",
+    "iso": "lo",
+    "flores": "lao_Laoo"
+  },
+  {
+    "country": "Lingala",
+    "iso": "ln",
+    "flores": "lin_Latn"
+  },
+  {
+    "country": "Lithuanian",
+    "iso": "lt",
+    "flores": "lit_Latn"
+  },
+  {
+    "country": "Ganda",
+    "iso": "lg",
+    "flores": "lug_Latn"
+  },
+  {
+    "country": "Latvian",
+    "iso": "lv",
+    "flores": "lvs_Latn"
+  },
+  {
+    "country": "Magahi",
+    "iso": "mag",
+    "flores": "mag_Deva"
+  },
+  {
+    "country": "Maithili",
+    "iso": "mai",
+    "flores": "mai_Deva"
+  },
+  {
+    "country": "Malayalam",
+    "iso": "ml",
+    "flores": "mal_Mlym"
+  },
+  {
+    "country": "Marathi",
+    "iso": "mr",
+    "flores": "mar_Deva"
+  },
+  {
+    "country": "Minangkabau",
+    "iso": "min",
+    "flores": "min_Arab"
+  },
+  {
+    "country": "Macedonian",
+    "iso": "mk",
+    "flores": "mkd_Cyrl"
+  },
+  {
+    "country": "Maltese",
+    "iso": "mt",
+    "flores": "mlt_Latn"
+  },
+  {
+    "country": "Bengali",
+    "iso": "bn",
+    "flores": "mni_Beng"
+  },
+  {
+    "country": "Mongolian",
+    "iso": "mn",
+    "flores": "khk_Cyrl"
+  },
+  {
+    "country": "Mossi",
+    "iso": "mos",
+    "flores": "mos_Latn"
+  },
+  {
+    "country": "Maori",
+    "iso": "mi",
+    "flores": "mri_Latn"
+  },
+  {
+    "country": "Burmese",
+    "iso": "my",
+    "flores": "mya_Mymr"
+  },
+  {
+    "country": "Norwegian",
+    "iso": "no",
+    "flores": "nno_Latn"
+  },
+  {
+    "country": "Nepali",
+    "iso": "ne",
+    "flores": "npi_Deva"
+  },
+  {
+    "country": "Oromo",
+    "iso": "om",
+    "flores": "gaz_Latn"
+  },
+  {
+    "country": "Pangasinan",
+    "iso": "pag",
+    "flores": "pag_Latn"
+  },
+  {
+    "country": "Papiamento",
+    "iso": "pap",
+    "flores": "pap_Latn"
+  },
+  {
+    "country": "Persian",
+    "iso": "fa",
+    "flores": "pes_Arab"
+  },
+  {
+    "country": "Polish",
+    "iso": "pl",
+    "flores": "pol_Latn"
+  },
+  {
+    "country": "Portuguese",
+    "iso": "pt",
+    "flores": "por_Latn"
+  },
+  {
+    "country": "Quechua",
+    "iso": "qu",
+    "flores": "quy_Latn"
+  },
+  {
+    "country": "Rundi",
+    "iso": "rn",
+    "flores": "run_Latn"
+  },
+  {
+    "country": "Russian",
+    "iso": "ru",
+    "flores": "rus_Cyrl"
+  },
+  {
+    "country": "Sango",
+    "iso": "sg",
+    "flores": "sag_Latn"
+  },
+  {
+    "country": "Sanskrit",
+    "iso": "sa",
+    "flores": "san_Deva"
+  },
+  {
+    "country": "Santali",
+    "iso": "sat",
+    "flores": "sat_Olck"
+  },
+  {
+    "country": "Sicilian",
+    "iso": "scn",
+    "flores": "scn_Latn"
+  },
+  {
+    "country": "Shan",
+    "iso": "shn",
+    "flores": "shn_Mymr"
+  },
+  {
+    "country": "Slovak",
+    "iso": "sk",
+    "flores": "slk_Latn"
+  },
+  {
+    "country": "Slovenian",
+    "iso": "sl",
+    "flores": "slv_Latn"
+  },
+  {
+    "country": "Samoan",
+    "iso": "sm",
+    "flores": "smo_Latn"
+  },
+  {
+    "country": "Shona",
+    "iso": "sn",
+    "flores": "sna_Latn"
+  },
+  {
+    "country": "Sindhi",
+    "iso": "sd",
+    "flores": "snd_Arab"
+  },
+  {
+    "country": "Somali",
+    "iso": "so",
+    "flores": "som_Latn"
+  },
+  {
+    "country": "Albanian",
+    "iso": "sq",
+    "flores": "als_Latn"
+  },
+  {
+    "country": "Sardinian",
+    "iso": "sc",
+    "flores": "srd_Latn"
+  },
+  {
+    "country": "Serbian",
+    "iso": "sr",
+    "flores": "srp_Cyrl"
+  },
+  {
+    "country": "Swati",
+    "iso": "ss",
+    "flores": "ssw_Latn"
+  },
+  {
+    "country": "Sundanese",
+    "iso": "su",
+    "flores": "sun_Latn"
+  },
+  {
+    "country": "Swedish",
+    "iso": "sv",
+    "flores": "swe_Latn"
+  },
+  {
+    "country": "Swahili",
+    "iso": "sw",
+    "flores": "swh_Latn"
+  },
+  {
+    "country": "Tamil",
+    "iso": "ta",
+    "flores": "tam_Taml"
+  },
+  {
+    "country": "Tatar",
+    "iso": "tt",
+    "flores": "tat_Cyrl"
+  },
+  {
+    "country": "Telugu",
+    "iso": "te",
+    "flores": "tel_Telu"
+  },
+  {
+    "country": "Tajik",
+    "iso": "tg",
+    "flores": "tgk_Cyrl"
+  },
+  {
+    "country": "Tagalog",
+    "iso": "tl",
+    "flores": "tgl_Latn"
+  },
+  {
+    "country": "Thai",
+    "iso": "th",
+    "flores": "tha_Thai"
+  },
+  {
+    "country": "Tigrinya",
+    "iso": "ti",
+    "flores": "tir_Ethi"
+  },
+  {
+    "country": "Tok Pisin",
+    "iso": "tpi",
+    "flores": "tpi_Latn"
+  },
+  {
+    "country": "Tswana",
+    "iso": "tn",
+    "flores": "tsn_Latn"
+  },
+  {
+    "country": "Tsonga",
+    "iso": "ts",
+    "flores": "tso_Latn"
+  },
+  {
+    "country": "Turkmen",
+    "iso": "tk",
+    "flores": "tuk_Latn"
+  },
+  {
+    "country": "Tumbuka",
+    "iso": "tum",
+    "flores": "tum_Latn"
+  },
+  {
+    "country": "Turkish",
+    "iso": "tr",
+    "flores": "tur_Latn"
+  },
+  {
+    "country": "Twi",
+    "iso": "tw",
+    "flores": "twi_Latn"
+  },
+  {
+    "country": "Ukrainian",
+    "iso": "uk",
+    "flores": "ukr_Cyrl"
+  },
+  {
+    "country": "Umbundu",
+    "iso": "umb",
+    "flores": "umb_Latn"
+  },
+  {
+    "country": "Urdu",
+    "iso": "ur",
+    "flores": "urd_Arab"
+  },
+  {
+    "country": "Uzbek",
+    "iso": "uz",
+    "flores": "uzn_Latn"
+  },
+  {
+    "country": "Vietnamese",
+    "iso": "vi",
+    "flores": "vie_Latn"
+  },
+  {
+    "country": "Waray",
+    "iso": "war",
+    "flores": "war_Latn"
+  },
+  {
+    "country": "Wolof",
+    "iso": "wo",
+    "flores": "wol_Latn"
+  },
+  {
+    "country": "Xhosa",
+    "iso": "xh",
+    "flores": "xho_Latn"
+  },
+  {
+    "country": "Yiddish",
+    "iso": "yi",
+    "flores": "ydd_Hebr"
+  },
+  {
+    "country": "Yoruba",
+    "iso": "yo",
+    "flores": "yor_Latn"
+  },
+  {
+    "country": "Chinese",
+    "iso": "zh",
+    "flores": "zho_Hans"
+  },
+  {
+    "country": "Chinese",
+    "iso": "zho",
+    "flores": "zho_Hant"
+  },
+  {
+    "country": "Malay",
+    "iso": "ms",
+    "flores": "zsm_Latn"
+  },
+  {
+    "country": "Zulu",
+    "iso": "zu",
+    "flores": "zul_Latn"
+  }
+]
