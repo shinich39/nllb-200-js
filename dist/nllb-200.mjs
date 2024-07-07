@@ -460,7 +460,7 @@ var flores_default = {
 };
 
 // index.js
-var MAIN_PATH = "src/main.py";
+var MAIN_PATH = "main.py";
 var py = new Py(".");
 var MODELS = [
   "facebook/nllb-200-distilled-600M",

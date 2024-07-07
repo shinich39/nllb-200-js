@@ -46,24 +46,6 @@ import * as esbuild from "esbuild";
     outfile: `${OUTPUT_PATH}/${MODULE_NAME}.min.cjs`,
   });
 
-  // Browser
-  await esbuild.build({
-    entryPoints: ["index.js"],
-    bundle: true,
-    minify: false,
-    platform: "browser",
-    format: "iife",
-    globalName: MODULE_NAME,
-    outfile: `${OUTPUT_PATH}/${MODULE_NAME}.js`,
-  });
-
-  await esbuild.build({
-    entryPoints: ["index.js"],
-    bundle: true,
-    minify: true,
-    platform: "browser",
-    format: "iife",
-    globalName: MODULE_NAME,
-    outfile: `${OUTPUT_PATH}/${MODULE_NAME}.min.js`,
-  });
+  // Copy main.py
+  fs.copyFileSync("main.py", "dist/main.py");
 })();

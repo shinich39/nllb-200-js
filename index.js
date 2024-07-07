@@ -4,7 +4,7 @@ import { Py } from "./src/py.js";
 // https://github.com/facebookresearch/flores/blob/main/flores200/README.md
 import LANGS from "./langs/flores.json" assert { type: "json" };
 
-const MAIN_PATH = "src/main.py";
+const MAIN_PATH = "main.py";
 const py = new Py(".");
 
 /**
