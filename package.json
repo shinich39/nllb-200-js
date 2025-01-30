@@ -1,0 +1,44 @@
+{
+  "name": "nllb-200-js",
+  "version": "1.0.0",
+  "description": "nllb-200 javascript wrapper",
+  "main": "./dist/index.min.mjs",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/index.min.mjs",
+      "require": "./dist/index.min.cjs"
+    }
+  },
+  "type": "module",
+  "scripts": {
+    "test": "tsx --test src/**/*.test.{js,jsx,ts,tsx}",
+    "node": "node test/index.js",
+    "browser": "observe test/index.html --port=3000",
+    "build": "npm run lint && npm run prettier && npm run bundle && npm run compile",
+    "compile": "tsc --project tsconfig.json",
+    "bundle": "node esbuild.config.js",
+    "prettier": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "shinich39 <shinich39@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/node": "^22.10.5",
+    "esbuild": "^0.24.2",
+    "eslint": "^9.17.0",
+    "eslint-config-prettier": "^10.0.1",
+    "node-html-observer": "github:shinich39/node-html-observer",
+    "node-py-wrapper": "github:shinich39/node-py-wrapper",
+    "prettier": "^3.4.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.19.0"
+  }
+}
