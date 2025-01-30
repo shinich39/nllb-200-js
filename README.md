@@ -6,8 +6,8 @@ nllb-200 javascript wrapper
 
 ### Requirements
 
-[nodejs](https://nodejs.org/en/download/package-manager/current)
-[python3](https://www.python.org/downloads/)
+- [nodejs](https://nodejs.org/en/download/package-manager/current)
+- [python3](https://www.python.org/downloads/)
 
 ### Installation
 
@@ -27,10 +27,13 @@ const targets = ["zho", "kor", "jpn"];
 
 for (const target of targets) {
   // At first translate, initialize take a long time for downloading nllb-200 model.
-  const result = await translate(text, source, target);
+  const result = await translate(source, target, text);
   console.log(result);
+  // zho: 6.081s
   // 洛克希德馬丁向美國海兵隊提供了初步5G測試床,
+  // kor: 5.634s
   // 로크히드 마틴은 미국 해병대에 첫 번째 5G 테스트 베드를 공급하고 모바일 네트워크 실험을 시작했습니다
+  // jpn: 5.700s
   // ロックヒッド・マーティンが5Gテストベッドをアメリカ海兵隊に提供し,モバイルネットワーク実験を開始
 }
 ```

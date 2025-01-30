@@ -24,9 +24,9 @@ describe('src/index.ts', () => {
     const targets = ['zho', 'kor', 'jpn'];
 
     for (const target of targets) {
-      console.log('From', getLang(source));
-      console.log('To', getLang(target));
-      const result = await translate(text, source, target);
+      console.time(target);
+      const result = await translate(source, target, text);
+      console.timeEnd(target);
       console.log(result);
     }
   });

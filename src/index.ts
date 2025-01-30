@@ -49,9 +49,9 @@ export function getLang(str: string): string | undefined {
  * "facebook/nllb-moe-54b"
  */
 export async function translate(
-  text: string,
   from: string,
   to: string,
+  text: string,
   model?: string
 ) {
   if (!py.isInitialized()) {
@@ -95,5 +95,5 @@ export async function translate(
     throw new Error(`Language not supported: ${to}`);
   }
 
-  return await py.run(SCRIPT_PATH, m, text, f, t);
+  return await py.run(SCRIPT_PATH, m, f, t, text);
 }

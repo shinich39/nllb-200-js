@@ -8,9 +8,9 @@ sys.stdout.reconfigure(encoding='utf-8')
 
 def main(*args):
   model_name = args[0]
-  text = args[1]
-  src_lang = args[2]
-  tgt_lang = args[3]
+  src_lang = args[1]
+  tgt_lang = args[2]
+  text = args[3]
 
   device = "cuda:0" if torch.cuda.is_available() else "cpu"
 
