@@ -1100,9 +1100,9 @@ sys.stdout.reconfigure(encoding='utf-8')
 
 def main(*args):
   model_name = args[0]
-  text = args[1]
-  src_lang = args[2]
-  tgt_lang = args[3]
+  src_lang = args[1]
+  tgt_lang = args[2]
+  text = args[3]
 
   device = "cuda:0" if torch.cuda.is_available() else "cpu"
 
@@ -1165,7 +1165,7 @@ function getLang(str) {
     return iso.flores;
   }
 }
-async function translate(text, from, to, model) {
+async function translate(from, to, text, model) {
   if (!py.isInitialized()) {
     await py.init();
   }
@@ -1200,7 +1200,7 @@ async function translate(text, from, to, model) {
   if (!t) {
     throw new Error(`Language not supported: ${to}`);
   }
-  return await py.run(SCRIPT_PATH, m2, text, f2, t);
+  return await py.run(SCRIPT_PATH, m2, f2, t, text);
 }
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {

@@ -11,9 +11,9 @@ sys.stdout.reconfigure(encoding='utf-8')
 
 def main(*args):
   model_name = args[0]
-  text = args[1]
-  src_lang = args[2]
-  tgt_lang = args[3]
+  src_lang = args[1]
+  tgt_lang = args[2]
+  text = args[3]
 
   device = "cuda:0" if torch.cuda.is_available() else "cpu"
 
@@ -49,4 +49,4 @@ def main(*args):
 
 if __name__ == '__main__':
   main(*sys.argv[1:])
-`;var y="./venv/nllb-200.py",w=L,v=f,K=m,e=new b({venvPath:"venv"}),z=!1,C=!1;function I(){k.existsSync(y)||k.writeFileSync(y,p,"utf8")}function A(n){if(v[n])return v[n];if(w[n])return w[n];let a=K.find(t=>t.country===n||t.iso===n);if(a)return a.flores}async function rn(n,a,t,o){e.isInitialized()||await e.init(),z||(await e.isInstalled("torch")?z=!0:await e.install("torch","--index-url","https://download.pytorch.org/whl/cu118")),C||(await e.isInstalled("transformers")?C=!0:await e.install("transformers")),I();let r=o||h[0];if(!r)throw new Error("Model not found");let i=A(a);if(!i)throw new Error(`Language not supported: ${a}`);let s=A(t);if(!s)throw new Error(`Language not supported: ${t}`);return await e.run(y,r,n,i,s)}export{A as getLang,rn as translate};
+`;var y="./venv/nllb-200.py",w=L,v=f,K=m,e=new b({venvPath:"venv"}),z=!1,C=!1;function I(){k.existsSync(y)||k.writeFileSync(y,p,"utf8")}function A(n){if(v[n])return v[n];if(w[n])return w[n];let a=K.find(t=>t.country===n||t.iso===n);if(a)return a.flores}async function rn(n,a,t,o){e.isInitialized()||await e.init(),z||(await e.isInstalled("torch")?z=!0:await e.install("torch","--index-url","https://download.pytorch.org/whl/cu118")),C||(await e.isInstalled("transformers")?C=!0:await e.install("transformers")),I();let r=o||h[0];if(!r)throw new Error("Model not found");let i=A(n);if(!i)throw new Error(`Language not supported: ${n}`);let s=A(a);if(!s)throw new Error(`Language not supported: ${a}`);return await e.run(y,r,i,s,t)}export{A as getLang,rn as translate};

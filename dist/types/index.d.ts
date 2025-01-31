@@ -11,5 +11,5 @@ export declare function getLang(str: string): string | undefined;
  * "facebook/nllb-200-3.3B",
  * "facebook/nllb-moe-54b"
  */
-export declare function translate(text: string, from: string, to: string, model?: string): Promise<string>;
+export declare function translate(from: string, to: string, text: string, model?: string): Promise<string>;
 //# sourceMappingURL=index.d.ts.map

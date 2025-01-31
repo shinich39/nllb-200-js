@@ -12,13 +12,13 @@ nllb-200 javascript wrapper
 ### Installation
 
 ```console
-npm install github:shinich39/nllb-200-js
+npm install github:shinich39/node-nllb-200
 ```
 
 ### Usage
 
 ```js
-import { translate } from "nllb-200-js";
+import { translate } from "node-nllb-200";
 
 const text =
 "Lockheed Martin Delivers Initial 5G Testbed To U.S. Marine Corps And Begins Mobile Network Experimentation";

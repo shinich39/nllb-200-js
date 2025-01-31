@@ -1,7 +1,7 @@
 {
-  "name": "nllb-200-js",
+  "name": "node-nllb-200",
   "version": "1.0.0",
-  "description": "nllb-200 javascript wrapper",
+  "description": "nllb-200 nodejs wrapper",
   "main": "./dist/index.min.mjs",
   "types": "./dist/types/index.d.ts",
   "exports": {
@@ -15,7 +15,6 @@
   "scripts": {
     "test": "tsx --test src/**/*.test.{js,jsx,ts,tsx}",
     "node": "node test/index.js",
-    "browser": "observe test/index.html --port=3000",
     "build": "npm run lint && npm run prettier && npm run bundle && npm run compile",
     "compile": "tsc --project tsconfig.json",
     "bundle": "node esbuild.config.js",
