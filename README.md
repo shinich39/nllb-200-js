@@ -1,6 +1,6 @@
-# nllb-200-js
+# node-nllb-200
 
-nllb-200 javascript wrapper
+nllb-200 nodejs wrapper
 
 ## Getting Started
 
